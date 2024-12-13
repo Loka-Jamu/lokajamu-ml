@@ -22,6 +22,8 @@ The dataset used for training, validating, and testing model consits 2590 images
 |   Lengkuas  |  370  | 
 |   Serai  |  370  |
 
+<img src="https://github.com/user-attachments/assets/f74715da-0ffb-448a-9a70-85a7aa6685b4"  width="350" height="350">
+
 ## Model
 We used image classification with a transfer learning method, using MobileNetV2 as the base model. To improve its accuracy, we added extra layers and performed fine-tuning to adapt the model specifically to our jamu ingredient dataset. This helped the model recognize ingredients more precisely and effectively.
 
