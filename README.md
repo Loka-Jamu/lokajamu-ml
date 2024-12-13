@@ -63,7 +63,7 @@ git clone https://github.com/Loka-Jamu/lokajamu-ml.git
 ```bash
 pip install tensorflow numpy matplotlib seaborn scikit-learn ipywidgets ipython notebook
 ```
-3. Go to the classification directory and open the notebooks
+3. Open the notebooks
 4. Set the dataset's source directory where it is stored
 5. Execute the notebook cells to train the model and assess its performance
 
