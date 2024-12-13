@@ -37,7 +37,31 @@ Ingredients detection models were evaluated using pre-trained model mobilenetv2_
 After training the model and adjusting its settings, it can now recognize ingredients with over 90% accuracy.<br /> 
 ![image](https://github.com/user-attachments/assets/986d579d-f951-4d14-9b7e-db94fb6d1389)
 
+### Model Performance With Test Data
+The performance of our model was evaluated using test data
+![image](https://github.com/user-attachments/assets/8b5ff7a9-2b2b-4c4d-ab03-c131b629f7f0)
 
+### Requirements
+To execute the notebook and use the model, the following dependencies are necessary:
+- tensorflow
+- numpy
+- matplotlib
+- seaborn
+- scikit-learn
+- ipywidgets
+- ipython
+- notebook
 
-
+### Step to Classification
+1. Clone the repository
+```bash
+git clone https://github.com/Loka-Jamu/lokajamu-ml.git
+```
+3. Install the required dependencies
+```bash
+pip install tensorflow numpy matplotlib seaborn scikit-learn ipywidgets ipython notebook
+```
+5. Go to the classification directory and open the notebooks
+6. Set the dataset's source directory where it is stored
+7. Execute the notebook cells to train the model and assess its performance
 
