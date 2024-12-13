@@ -56,16 +56,32 @@ To execute the notebook and use the model, the following dependencies are necess
 - ipython
 - notebook
 
-## Step to Classification
-1. Clone the repository
-```bash
-git clone https://github.com/Loka-Jamu/lokajamu-ml.git
-```
-2. Install the required dependencies
-```bash
-pip install tensorflow numpy matplotlib seaborn scikit-learn ipywidgets ipython notebook
-```
-3. Open the notebooks
-4. Set the dataset's source directory where it is stored
-5. Execute the notebook cells to train the model and assess its performance
+## Tools
+- Google Colab
+- Google Drive
+- Python Libraries
+  - TensorFlow: For training machine learning models.
+  - NumPy: For numerical computing, especially matrix and array manipulation.
+  - Matplotlib and Seaborn: For data visualization (plots, charts).
+  - Scikit-learn: For machine learning algorithms and tools.
+  - ipywidgets and IPython: For creating interactive widgets and enhancing the interactive Python environment.
 
+## Step to Classification
+1. Clone the repository using Git
+   ```bash
+     !git clone https://github.com/Loka-Jamu/lokajamu-ml.git
+   ```
+2. Install dependencies
+   ```bash
+     !pip install tensorflow numpy matplotlib seaborn scikit-learn ipywidgets ipython notebook
+   ```
+3. Mount Google Drive if your dataset is stored there
+   ```bash
+     from google.colab import drive
+     drive.mount('/content/drive')
+   ```
+4. List files to check for the notebook
+   ```bash
+     !ls lokajamu-ml
+   ```
+5. Run the notebook to train and evaluate the model
