@@ -34,8 +34,7 @@ Ingredients detection models were evaluated using pre-trained model mobilenetv2_
           tf.keras.layers.Dense(7, activation='softmax') ])
      ```
 
-After training the model and adjusting its settings, it can now recognize ingredients with over 90% accuracy.<br />
-<img src="[https://github.com/AnimaLink/Machine-Learning-app/assets/91884661/99b70b64-bcc6-4a6f-b87d-2172e3f1358b](https://github.com/user-attachments/assets/52f89fff-918a-4eb4-980f-8c619d4b819b)"  width="auto" height="auto">
+After training the model and adjusting its settings, it can now recognize ingredients with over 90% accuracy.<br /> <img src="[https://github.com/AnimaLink/Machine-Learning-app/assets/91884661/99b70b64-bcc6-4a6f-b87d-2172e3f1358b](https://github.com/user-attachments/assets/52f89fff-918a-4eb4-980f-8c619d4b819b)"  width="350" height="450">
 
 
 
