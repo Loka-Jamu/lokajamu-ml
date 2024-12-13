@@ -59,11 +59,11 @@ To execute the notebook and use the model, the following dependencies are necess
 ```bash
 git clone https://github.com/Loka-Jamu/lokajamu-ml.git
 ```
-3. Install the required dependencies
+2. Install the required dependencies
 ```bash
 pip install tensorflow numpy matplotlib seaborn scikit-learn ipywidgets ipython notebook
 ```
-5. Go to the classification directory and open the notebooks
-6. Set the dataset's source directory where it is stored
-7. Execute the notebook cells to train the model and assess its performance
+3. Go to the classification directory and open the notebooks
+4. Set the dataset's source directory where it is stored
+5. Execute the notebook cells to train the model and assess its performance
 
