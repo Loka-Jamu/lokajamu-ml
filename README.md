@@ -40,8 +40,10 @@ After training the model and adjusting its settings, it can now recognize ingred
 ### Model Performance With Test Data
 The performance of our model was evaluated using test data
 ![image](https://github.com/user-attachments/assets/8b5ff7a9-2b2b-4c4d-ab03-c131b629f7f0)
+![image](https://github.com/user-attachments/assets/ad48c4f4-e59b-4512-ba38-56ec37185b1d)
 
-### Requirements
+
+## Requirements
 To execute the notebook and use the model, the following dependencies are necessary:
 - tensorflow
 - numpy
@@ -52,7 +54,7 @@ To execute the notebook and use the model, the following dependencies are necess
 - ipython
 - notebook
 
-### Step to Classification
+## Step to Classification
 1. Clone the repository
 ```bash
 git clone https://github.com/Loka-Jamu/lokajamu-ml.git
