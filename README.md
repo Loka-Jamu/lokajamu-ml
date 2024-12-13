@@ -23,7 +23,7 @@ The dataset used for training, validating, and testing model consits 2590 images
 |   Serai  |  370  |
 
 ## Model
-Ingredients detection models were evaluated using pre-trained model mobilenetv2_1.00_224
+We used image classification with a transfer learning method, using MobileNetV2 as the base model. To improve its accuracy, we added extra layers and performed fine-tuning to adapt the model specifically to our jamu ingredient dataset. This helped the model recognize ingredients more precisely and effectively.
 
      ```py
      model = tf.keras.Sequential([
