@@ -37,7 +37,7 @@ We used image classification with a transfer learning method, using MobileNetV2 
 After training the model and adjusting its settings, it can now recognize ingredients with over 90% accuracy.<br /> 
 ![image](https://github.com/user-attachments/assets/986d579d-f951-4d14-9b7e-db94fb6d1389)
 
-### Model Performance With Test Data
+### Model Performance
 The performance of our model was evaluated using test data
 ![image](https://github.com/user-attachments/assets/8b5ff7a9-2b2b-4c4d-ab03-c131b629f7f0)
 ![image](https://github.com/user-attachments/assets/ad48c4f4-e59b-4512-ba38-56ec37185b1d)
