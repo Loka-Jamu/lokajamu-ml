@@ -25,7 +25,7 @@ The dataset used for training, validating, and testing model consits 2590 images
 ## Model
 We used image classification with a transfer learning method, using MobileNetV2 as the base model. To improve its accuracy, we added extra layers and performed fine-tuning to adapt the model specifically to our jamu ingredient dataset. This helped the model recognize ingredients more precisely and effectively.
 
-     ```py
+     ```
      model = tf.keras.Sequential([
           based_model,  # MobileNet V2
           tf.keras.layers.Flatten(),
